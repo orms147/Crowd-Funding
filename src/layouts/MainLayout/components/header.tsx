@@ -11,7 +11,7 @@ const Header = () => {
     <header className="py-4 border-b border-gray-300">
         <div className="flex justify-between items-center gap-2.5">
             <div className="flex items-baseline gap-4">
-                <h1 className="text-xl font-bold">Crowdfunding</h1>
+                <h1 className="text-2xl font-bold">Crowdfunding</h1>
                 <a href={`https://sepolia.etherscan.io/address/${contractAddress}`} 
                 target="_blank"
                 className="flex text-sm rounded-lg hover:bg-gray-200 transition duration-300 p-1 gap-1">
